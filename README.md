@@ -18,12 +18,10 @@ This is a React UI implementation of TigerMenus, an app developed by [axu2](http
 It is incomplete as of 6/7/2020.
 
 ## Issues:
-- Buttons overflow on mobile
 - Empty data may cause errors
-- Routing for links
+- No routing for links
 - No About or Install pages
-- Boilerplate metas and so forth
-- Likely others
+- Need boilerplate metas and so forth
 
 ## Setup
 ```
