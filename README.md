@@ -4,6 +4,8 @@
 
 * [Details](#details)
 * [Try](#try)
+* [Issues](#issues)
+* [Setup](#setup)
 
 ## Details
 
