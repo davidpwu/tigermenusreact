@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/tigermenusreact/static/css/main.2dfe1c98.chunk.css",
-    "main.js": "/tigermenusreact/static/js/main.4be79871.chunk.js",
-    "main.js.map": "/tigermenusreact/static/js/main.4be79871.chunk.js.map",
+    "main.js": "/tigermenusreact/static/js/main.411b08a2.chunk.js",
+    "main.js.map": "/tigermenusreact/static/js/main.411b08a2.chunk.js.map",
     "runtime-main.js": "/tigermenusreact/static/js/runtime-main.f759a3c5.js",
     "runtime-main.js.map": "/tigermenusreact/static/js/runtime-main.f759a3c5.js.map",
-    "static/js/2.f9e5e3c1.chunk.js": "/tigermenusreact/static/js/2.f9e5e3c1.chunk.js",
-    "static/js/2.f9e5e3c1.chunk.js.map": "/tigermenusreact/static/js/2.f9e5e3c1.chunk.js.map",
+    "static/js/2.1538facc.chunk.js": "/tigermenusreact/static/js/2.1538facc.chunk.js",
+    "static/js/2.1538facc.chunk.js.map": "/tigermenusreact/static/js/2.1538facc.chunk.js.map",
     "index.html": "/tigermenusreact/index.html",
-    "precache-manifest.84025d0e0b0fdc3ad0632f0d2e7c128c.js": "/tigermenusreact/precache-manifest.84025d0e0b0fdc3ad0632f0d2e7c128c.js",
+    "precache-manifest.ac4f5f91f04ade1ccd2fde35fc1a130b.js": "/tigermenusreact/precache-manifest.ac4f5f91f04ade1ccd2fde35fc1a130b.js",
     "service-worker.js": "/tigermenusreact/service-worker.js",
     "static/css/main.2dfe1c98.chunk.css.map": "/tigermenusreact/static/css/main.2dfe1c98.chunk.css.map",
-    "static/js/2.f9e5e3c1.chunk.js.LICENSE.txt": "/tigermenusreact/static/js/2.f9e5e3c1.chunk.js.LICENSE.txt",
+    "static/js/2.1538facc.chunk.js.LICENSE.txt": "/tigermenusreact/static/js/2.1538facc.chunk.js.LICENSE.txt",
     "static/media/tm-react.jpg": "/tigermenusreact/static/media/tm-react.c9625e85.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f759a3c5.js",
-    "static/js/2.f9e5e3c1.chunk.js",
+    "static/js/2.1538facc.chunk.js",
     "static/css/main.2dfe1c98.chunk.css",
-    "static/js/main.4be79871.chunk.js"
+    "static/js/main.411b08a2.chunk.js"
   ]
 }
