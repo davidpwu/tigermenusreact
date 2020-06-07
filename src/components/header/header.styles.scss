@@ -9,7 +9,9 @@
 
   .title {
     margin: 10px;
-
+    display: flex;
+    align-items: center;
+    
     a {
       color: inherit;
       text-decoration: inherit;
