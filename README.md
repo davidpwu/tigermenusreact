@@ -3,15 +3,15 @@
 ## Table of Contents
 
 * [Details](#details)
-* [Try](#try)
 * [Issues](#issues)
 * [Setup](#setup)
+* [Try](#try)
 
 ## Details
 
-![alt text](https://raw.githubusercontent.com/davidpwu/tigermenusreact/master/src/assets/tm-react.jpg)
+<img src="https://raw.githubusercontent.com/davidpwu/tigermenusreact/master/src/assets/tm-react.jpg" alt="" width="400"/>
 
-This is a React UI implementation of TigerMenus, an app developed by axu2. It uses data scraped by TigerMenus.
+This is a React UI implementation of TigerMenus, an app developed by [axu2](https://github.com/axu2). It uses data scraped by TigerMenus.
 - https://github.com/axu2/tiger-menus
 - https://tigermenus.herokuapp.com
 
