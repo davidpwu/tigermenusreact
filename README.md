@@ -17,7 +17,7 @@ This is a React UI implementation of TigerMenus, an app developed by [axu2](http
 
 It is incomplete as of 6/7/2020.
 
-## Issues:
+## Issues
 - Empty data may cause errors
 - No routing for links
 - No About or Install pages
