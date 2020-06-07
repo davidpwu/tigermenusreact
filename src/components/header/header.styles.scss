@@ -1,0 +1,30 @@
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eee;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  .title {
+    margin: 10px;
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+
+  .code-link {
+    margin-bottom: 10px;
+  }
+
+  .meal-time-buttons {
+    margin-top: 10px;
+  }
+
+  .meal-day-buttons {
+    margin-top: 10px;
+  }
+}
