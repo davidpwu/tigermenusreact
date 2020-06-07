@@ -10,9 +10,9 @@ import "./header.styles.scss";
 const Header = ({mealTime, mealDay, setMealTime, setMealDay}) => (
   <header className="header">
     <h1 className="title"><a href="/">TigerMenus</a></h1>
-    <Link href="https://github.com/axu2/tiger-menus" className="code-link">
+    <a href="https://github.com/axu2/tiger-menus" className="code-link">
       Code (GitHub)
-    </Link>
+    </a>
     <MealTimeButtons mealTime={mealTime} setMealTime={setMealTime} className="meal-time-buttons" />
     <MealDayButtons mealDay={mealDay} setMealDay={setMealDay} className="meal-day-buttons" />
   </header>

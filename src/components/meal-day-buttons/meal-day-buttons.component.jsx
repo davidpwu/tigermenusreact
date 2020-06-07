@@ -12,6 +12,8 @@ const MealDayButtons = ({mealDay, setMealDay}) => (
     aria-label="text primary button group" 
     className="meal-day-buttons"
     disableElevation
+
+    style={{maxWidth: 500, overflowX: 'hidden'}}
   >
     <Button onClick={() => setMealDay("sunday")}>
       {mealDay === "sunday" ? <strong>Sun</strong> : "Sun"}
