@@ -11,7 +11,7 @@ const Header = ({mealTime, mealDay, setMealTime, setMealDay}) => (
   <header className="header">
     <h1 className="title">
       <img src={tmReactLogo} width="50" alt=""/>
-      <a href="/">TigerMenus React</a>
+      <a href="#">TigerMenus React</a>
     </h1>
     <a href="https://github.com/axu2/tiger-menus" className="code-link">
       TigerMenus Code (GitHub)

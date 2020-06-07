@@ -1,42 +1,33 @@
 import React from "react";
 
 import Button from "@material-ui/core/Button";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
 
 import "./meal-day-buttons.component.jsx";
 
 const MealDayButtons = ({mealDay, setMealDay}) => (
-  <ButtonGroup 
-    variant="contained" 
-    // color="primary" 
-    aria-label="text primary button group" 
-    className="meal-day-buttons"
-    disableElevation
-
-    style={{maxWidth: 500, overflowX: 'hidden'}}
-  >
+  <div className="meal-day-buttons">
     <Button onClick={() => setMealDay("sunday")}>
-      {mealDay === "sunday" ? <strong>Sun</strong> : "Sun"}
+      {mealDay === "sunday" ? <strong style={{fontSize: 18}}>Sun</strong> : "Sun"}
     </Button> 
     <Button onClick={() => setMealDay("monday")}>
-      {mealDay === "monday" ? <strong>Mon</strong> : "Mon"}
+      {mealDay === "monday" ? <strong style={{fontSize: 18}}>Mon</strong> : "Mon"}
     </Button> 
     <Button onClick={() => setMealDay("tuesday")}>
-      {mealDay === "tuesday" ? <strong>Tue</strong> : "Tue"}
+      {mealDay === "tuesday" ? <strong style={{fontSize: 18}}>Tue</strong> : "Tue"}
     </Button> 
     <Button onClick={() => setMealDay("wednesday")}>
-      {mealDay === "wednesday" ? <strong>Wed</strong> : "Wed"}
+      {mealDay === "wednesday" ? <strong style={{fontSize: 18}}>Wed</strong> : "Wed"}
     </Button> 
     <Button onClick={() => setMealDay("thursday")}>
-      {mealDay === "thursday" ? <strong>Thu</strong> : "Thu"}
+      {mealDay === "thursday" ? <strong style={{fontSize: 18}}>Thu</strong> : "Thu"}
     </Button> 
     <Button onClick={() => setMealDay("friday")}>
-      {mealDay === "friday" ? <strong>Fri</strong> : "Fri"}
+      {mealDay === "friday" ? <strong style={{fontSize: 18}}>Fri</strong> : "Fri"}
     </Button> 
     <Button onClick={() => setMealDay("saturday")}>
-      {mealDay === "saturday" ? <strong>Sat</strong> : "Sat"}
+      {mealDay === "saturday" ? <strong style={{fontSize: 18}}>Sat</strong> : "Sat"}
     </Button> 
-  </ButtonGroup>
+  </div>
 )
 
 export default MealDayButtons;

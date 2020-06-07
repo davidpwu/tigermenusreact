@@ -6,11 +6,11 @@ import "./footer.styles.scss";
 
 const Footer = () => (
   <footer className="footer">
-    <p>To add the site to your phone's homescreen, open the <a href="/">homepage</a></p>
+    <p>To add the site to your phone's homescreen, open the <a href="#">homepage</a></p>
     <p>On iPhone, click the <img height="24" src={actionPng} alt="options" /> button on the bottom of Safari</p>
     <p>On Android, click on the <i className="material-icons">more_vert</i> button on the top right of Chrome</p>
     <p>Click "Add to Home Screen" <img src="/static/favicons/favicon-32x32.png" alt="" /></p>
-    <h4><b><a href="/install">Install Instructions (Screenshots)</a></b></h4>
+    <h4><b><a href="#">Install Instructions (Screenshots)</a></b></h4>
 
     <hr />
 
@@ -26,7 +26,7 @@ const Footer = () => (
       Feedback
     </a></p>
     <p><a href="https://github.com/axu2/tiger-menus">Code (GitHub)</a> Please contribute!</p>
-    <p><a href="/about">About</a></p>
+    <p><a href="#">About</a></p>
   </footer>
 )
 
