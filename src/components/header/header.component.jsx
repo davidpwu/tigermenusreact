@@ -7,7 +7,9 @@ import tmReactLogo from "../../assets/tm-react.jpg";
 
 import "./header.styles.scss";
 
-const Header = ({mealTime, mealDay, setMealTime, setMealDay}) => (
+const Header = ({mealTime, mealDay, setMealTime, setMealDay}) => {
+  console.log("Header");
+  return (
   <header className="header">
     <h1 className="title">
       <img src={tmReactLogo} width="50" alt=""/>
@@ -19,6 +21,6 @@ const Header = ({mealTime, mealDay, setMealTime, setMealDay}) => (
     <MealTimeButtons mealTime={mealTime} setMealTime={setMealTime} className="meal-time-buttons" />
     <MealDayButtons mealDay={mealDay} setMealDay={setMealDay} className="meal-day-buttons" />
   </header>
-)
+)}
 
 export default Header;
