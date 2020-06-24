@@ -8,7 +8,7 @@ const DiningHallMenu = ({diningHallName, diningHallFoodData}) => (
   <Grid container item xs={12} sm={2} className="dining-hall-menu">
     <h2>{diningHallName}</h2>
     {
-      diningHallFoodData.length !== 0
+      (diningHallFoodData ? diningHallFoodData.length !== 0 : null)
       ?
       diningHallFoodData.map((item, index) => {
         if (index === 0) {

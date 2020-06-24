@@ -23,9 +23,10 @@ const Footer = () => (
     <hr />
 
     <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd-i9YUoMUk_xJ6l3cNoSl04KKymQ8CAHID9CbwhJpgNn-2QQ/viewform?usp=sf_link">
-      Feedback
+      Feedback (TigerMenus)
     </a></p>
-    <p><a href="https://github.com/axu2/tiger-menus">Code (GitHub)</a> Please contribute!</p>
+    <p><a href="https://github.com/axu2/tiger-menus">Code (TigerMenus) (GitHub)</a> Please contribute!</p>
+    <p><a href="https://github.com/davidpwu/tigermenusreact">Code (TigerMenusReact) (GitHub)</a> Please contribute!</p>
     <p><a href="#">About</a></p>
   </footer>
 )

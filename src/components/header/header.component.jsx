@@ -18,6 +18,9 @@ const Header = ({mealTime, mealDay, setMealTime, setMealDay}) => {
     <a href="https://github.com/axu2/tiger-menus" className="code-link">
       TigerMenus Code (GitHub)
     </a>
+    <a href="https://github.com/davidpwu/tigermenusreact" className="code-link">
+      TigerMenusReact Code (GitHub)
+    </a>
     <MealTimeButtons mealTime={mealTime} setMealTime={setMealTime} className="meal-time-buttons" />
     <MealDayButtons mealDay={mealDay} setMealDay={setMealDay} className="meal-day-buttons" />
   </header>
