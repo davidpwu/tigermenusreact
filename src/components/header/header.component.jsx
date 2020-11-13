@@ -8,7 +8,6 @@ import tmReactLogo from "../../assets/tm-react.jpg";
 import "./header.styles.scss";
 
 const Header = ({mealTime, mealDay, setMealTime, setMealDay}) => {
-  console.log("Header");
   return (
   <header className="header">
     <h1 className="title">
