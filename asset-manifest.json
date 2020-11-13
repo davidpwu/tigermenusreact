@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tigermenusreact/static/css/main.d5d28cb5.chunk.css",
-    "main.js": "/tigermenusreact/static/js/main.b21d0fa5.chunk.js",
-    "main.js.map": "/tigermenusreact/static/js/main.b21d0fa5.chunk.js.map",
+    "main.js": "/tigermenusreact/static/js/main.22160f53.chunk.js",
+    "main.js.map": "/tigermenusreact/static/js/main.22160f53.chunk.js.map",
     "runtime-main.js": "/tigermenusreact/static/js/runtime-main.f759a3c5.js",
     "runtime-main.js.map": "/tigermenusreact/static/js/runtime-main.f759a3c5.js.map",
     "static/js/2.1538facc.chunk.js": "/tigermenusreact/static/js/2.1538facc.chunk.js",
     "static/js/2.1538facc.chunk.js.map": "/tigermenusreact/static/js/2.1538facc.chunk.js.map",
     "index.html": "/tigermenusreact/index.html",
-    "precache-manifest.2c60427e3c4638e40f879b61e1ea1f40.js": "/tigermenusreact/precache-manifest.2c60427e3c4638e40f879b61e1ea1f40.js",
+    "precache-manifest.2165bf7407cced112b00c9f5b8412dbf.js": "/tigermenusreact/precache-manifest.2165bf7407cced112b00c9f5b8412dbf.js",
     "service-worker.js": "/tigermenusreact/service-worker.js",
     "static/css/main.d5d28cb5.chunk.css.map": "/tigermenusreact/static/css/main.d5d28cb5.chunk.css.map",
     "static/js/2.1538facc.chunk.js.LICENSE.txt": "/tigermenusreact/static/js/2.1538facc.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f759a3c5.js",
     "static/js/2.1538facc.chunk.js",
     "static/css/main.d5d28cb5.chunk.css",
-    "static/js/main.b21d0fa5.chunk.js"
+    "static/js/main.22160f53.chunk.js"
   ]
 }
