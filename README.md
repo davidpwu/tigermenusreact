@@ -15,8 +15,6 @@ This is a React UI implementation of TigerMenus, an app developed by [axu2](http
 - https://github.com/axu2/tiger-menus
 - https://tigermenus.herokuapp.com
 
-It is incomplete as of 6/19/2020.
-
 ## Issues
 - Empty data may cause errors
 - No routing for links
