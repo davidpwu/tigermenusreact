@@ -27,39 +27,25 @@ const today = weekdayArr[new Date().getDay()];
 let dayMap;
 switch (today) {
   case "sunday":
-    dayMap = [
-      "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday",
-    ]
+    dayMap = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
     break;
   case "monday":
-    dayMap = [
-      "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
-    ]
+    dayMap = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
     break;
   case "tuesday":
-    dayMap = [
-      "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "monday",
-    ]
+    dayMap = ["tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "monday"];
     break;
   case "wednesday":
-    dayMap = [
-      "wednesday", "thursday", "friday", "saturday", "sunday", "monday", "tuesday"
-    ]
+    dayMap = ["wednesday", "thursday", "friday", "saturday", "sunday", "monday", "tuesday"];
     break;
   case "thursday":
-    dayMap = [
-      "thursday", "friday", "saturday", "sunday", "monday", "tuesday", "wednesday"
-    ]
+    dayMap = ["thursday", "friday", "saturday", "sunday", "monday", "tuesday", "wednesday"];
     break;
   case "friday":
-    dayMap = [
-      "friday", "saturday", "sunday", "monday", "tuesday", "wednesday", "thursday"
-    ]
+    dayMap = ["friday", "saturday", "sunday", "monday", "tuesday", "wednesday", "thursday"];
     break;
   case "saturday":
-    dayMap = [
-      "saturday", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday"
-    ]
+    dayMap = ["saturday", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday"];
     break;
   default: 
     break;

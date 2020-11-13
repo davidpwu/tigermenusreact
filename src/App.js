@@ -18,6 +18,16 @@ const weekdayArr = [
 ];
 
 const today = weekdayArr[new Date().getDay()];
+const currHour = new Date().getHours();
+let currMeal;
+if (currHour < 10) {
+  currMeal = "breakfast";
+} else if (currHour < 14) {
+  currMeal = "lunch";
+} else {
+  currMeal = "dinner";
+}
+
 let dayMap;
 switch (today) {
   case "sunday":
@@ -83,7 +93,8 @@ class App extends React.Component {
     // const testData = [b, l, d];
     // this.setState({tmData: testData});
 
-    this.setState({mealTime: "breakfast"});
+
+    this.setState({mealTime: currMeal});
     this.setState({mealDay: today});
   }
 
